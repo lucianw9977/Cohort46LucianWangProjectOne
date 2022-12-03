@@ -1,0 +1,70 @@
+@use "./variables" as *;
+
+body {
+    background-color: $ice;
+}
+
+.section1-wrapper {
+    position: relative;
+
+    .nav1 {
+        position: absolute;
+        top: 2%;
+        right: 8%;
+        word-spacing: 5vh;
+    }
+
+    .image1 {
+        width: 100%;
+    }
+
+    .image2 {
+        height: 100%;
+        width: 45%;
+        position: cover;
+        right: 0;
+        bottom: -20%; 
+        object-fit: fill;
+        border-bottom: 30px solid $yellow;  
+        border-top: 35px solid $yellow;  
+        border-left: 30px solid $yellow;  
+    }
+
+    .image2 {
+        height: 80%;
+        position: absolute;
+        right: 0;
+        bottom: -20%;
+    }
+
+    .h1-container {
+        width: 100%;
+        height: 100%;
+
+        h1 {
+        position: absolute;
+        margin-left: auto;
+        margin-right: auto;
+        left: 0;
+        right: 0;
+        top: 55%;
+        text-align: center;
+        z-index: 1;
+        }
+    }   
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
