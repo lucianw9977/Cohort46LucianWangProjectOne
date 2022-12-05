@@ -1,0 +1,15 @@
+@use "./variables" as *;
+
+.section5 {
+    margin-top: 10%;
+    width: 100%;
+
+    .section5-image {
+        width: 100%;
+
+        .banner {
+            width: 100%;
+            object-fit: cover;
+        }
+    }
+}
