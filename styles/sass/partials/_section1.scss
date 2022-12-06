@@ -41,10 +41,9 @@ body {
     .image2 {
         height: 100%;
         width: 45%;
-        position: cover;
         right: 0;
         bottom: -20%; 
-        object-fit: fill;
+        object-fit: cover;
         border-bottom: 30px solid $yellow;  
         border-top: 35px solid $yellow;  
         border-left: 30px solid $yellow; 
@@ -81,6 +80,10 @@ body {
                 width: 50%;
                 text-align: right;
                 border-bottom: 10px solid $yellow;
+            }
+
+            @media only screen and (max-width: 320px) {
+                top: 40%;
             }
         }     
     }   

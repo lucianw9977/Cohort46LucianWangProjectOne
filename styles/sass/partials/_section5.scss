@@ -4,6 +4,10 @@
     margin-top: 10%;
     width: 100%;
 
+    @media only screen and (max-width: 320px) {
+        display: none;
+    }
+
     .section5-image {
         width: 100%;
 
