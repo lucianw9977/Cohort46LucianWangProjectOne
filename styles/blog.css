@@ -228,7 +228,7 @@ html {
 
 html {
   /* 1 rem = 20px */
-  font-size: 125%;
+  font-size: 62.5%;
 }
 
 body {
@@ -256,7 +256,7 @@ h1 {
   text-align: center;
 }
 .section2-wrapper .paragraph1 h2 {
-  font-size: 4vw;
+  font-size: 3vw;
   text-transform: uppercase;
   letter-spacing: 1px;
 }
@@ -272,7 +272,7 @@ h1 {
 }
 .section2-wrapper .paragraph1 .p1 {
   font-family: "Roboto";
-  font-size: 1.8vw;
+  font-size: 1.5vw;
   font-style: normal;
   line-height: 3vw;
   letter-spacing: 1px;
@@ -293,7 +293,7 @@ h1 {
 }
 
 .section3-h3-right {
-  font-size: 3vw;
+  font-size: 2vw;
   letter-spacing: 1px;
   text-transform: uppercase;
 }
@@ -309,7 +309,7 @@ h1 {
 }
 
 .section3-h3-left {
-  font-size: 3vw;
+  font-size: 2vw;
   letter-spacing: 1px;
   text-transform: uppercase;
   text-align: right;
@@ -327,7 +327,7 @@ h1 {
 
 .p2 {
   font-family: "Roboto";
-  font-size: 1.8vw;
+  font-size: 1.5vw;
   font-style: normal;
   line-height: 3vw;
   letter-spacing: 1px;
@@ -350,7 +350,7 @@ h1 {
 
 .p3 {
   font-family: "Roboto";
-  font-size: 1.8vw;
+  font-size: 1.5vw;
   font-style: normal;
   line-height: 3vw;
   letter-spacing: 1px;
@@ -376,7 +376,7 @@ h1 {
 .button3,
 .button4 {
   font-family: "Playfair Display";
-  font-size: 1.8vw;
+  font-size: 1.5vw;
   text-transform: uppercase;
   font-style: italic;
   line-height: 3vw;
@@ -400,7 +400,7 @@ h1 {
 }
 
 .section4-h3 {
-  font-size: 3vw;
+  font-size: 2vw;
   text-transform: uppercase;
   letter-spacing: 1px;
 }
@@ -418,7 +418,7 @@ h1 {
 
 .p4 {
   font-family: "Roboto";
-  font-size: 1.8vw;
+  font-size: 1.5vw;
   font-style: normal;
   line-height: 3vw;
   text-align: left;
@@ -440,7 +440,7 @@ h1 {
 }
 
 .section6-h3 {
-  font-size: 3vw;
+  font-size: 2vw;
   letter-spacing: 1px;
   text-transform: uppercase;
 }
@@ -457,7 +457,7 @@ h1 {
 
 .p5 {
   font-family: "Roboto";
-  font-size: 1.8vw;
+  font-size: 1.5vw;
   font-style: normal;
   line-height: 3vw;
   text-align: left;
@@ -467,7 +467,6 @@ h1 {
   .p5 {
     text-align: center;
     font-size: 3vw;
-    text-align: center;
     line-height: 4vw;
   }
 }
@@ -480,7 +479,7 @@ h1 {
 
 .copyright {
   font-family: "Roboto";
-  font-size: 1.8vw;
+  font-size: 1.5vw;
   font-style: normal;
   text-align: center;
   letter-spacing: 1px;
@@ -506,10 +505,80 @@ h1 {
   font-size: 1.8vw;
   font-style: normal;
 }
+@media only screen and (max-width: 820px) {
+  .form-container input {
+    font-size: 2vw;
+  }
+}
+@media only screen and (max-width: 320px) {
+  .form-container input {
+    font-size: 3.5vw;
+  }
+}
+@media only screen and (max-width: 820px) {
+  .form-container textarea {
+    font-size: 2vw;
+  }
+}
+@media only screen and (max-width: 320px) {
+  .form-container textarea {
+    font-size: 3.5vw;
+  }
+}
 .form-container .submit-button {
   font-family: "Playfair Display";
   font-size: 1.8vw;
   text-transform: uppercase;
   font-style: italic;
   text-decoration: none;
+  color: black;
+}
+@media only screen and (max-width: 820px) {
+  .form-container .submit-button {
+    font-size: 2.5vw;
+  }
+}
+@media only screen and (max-width: 320px) {
+  .form-container .submit-button {
+    font-size: 3.5vw;
+  }
+}
+
+.p6 {
+  font-family: "Playfair Display";
+  font-size: 2w;
+  text-transform: uppercase;
+  font-style: italic;
+  line-height: 3vw;
+  letter-spacing: 1px;
+}
+@media only screen and (max-width: 320px) {
+  .p6 {
+    font-size: 4vw;
+    text-align: center;
+  }
+}
+
+.p7 {
+  font-family: "Roboto";
+  font-size: 1.5vw;
+  font-style: normal;
+  line-height: 2.5vw;
+  text-align: left;
+  letter-spacing: 1px;
+  margin: 0;
+}
+@media only screen and (max-width: 820px) {
+  .p7 {
+    text-align: left;
+    font-size: 2vw;
+    line-height: 2.5vw;
+  }
+}
+@media only screen and (max-width: 320px) {
+  .p7 {
+    text-align: center;
+    font-size: 4vw;
+    line-height: 5vw;
+  }
 }
