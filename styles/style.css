@@ -686,10 +686,6 @@ li {
   border: none;
   background-color: white;
 }
-.button5 .find {
-  color: black;
-  text-decoration: none;
-}
 
 .right-p-h2 {
   font-size: 3vw;
@@ -704,6 +700,74 @@ li {
 @media only screen and (max-width: 320px) {
   .right-p-h2 {
     font-size: 6vw;
+  }
+}
+
+.find1 {
+  font-family: "Playfair Display";
+  font-size: 1.5vw;
+  text-transform: uppercase;
+  font-style: italic;
+  line-height: 3vw;
+  letter-spacing: 1px;
+  text-decoration: none;
+  color: black;
+}
+@media only screen and (max-width: 820px) {
+  .find1 {
+    font-size: 2.5vw;
+  }
+}
+@media only screen and (max-width: 320px) {
+  .find1 {
+    font-size: 3.5vw;
+  }
+}
+
+.find2 {
+  font-family: "Roboto";
+  font-size: 1.5vw;
+  line-height: 2.5vw;
+  letter-spacing: 1px;
+  margin: 0;
+  font-weight: bolder;
+  font-style: italic;
+  text-decoration: none;
+  color: black;
+}
+@media only screen and (max-width: 820px) {
+  .find2 {
+    text-align: left;
+    font-size: 2vw;
+    line-height: 2.5vw;
+  }
+}
+@media only screen and (max-width: 320px) {
+  .find2 {
+    text-align: center;
+    font-size: 4vw;
+    line-height: 5vw;
+  }
+}
+
+.read1 {
+  font-family: "Playfair Display";
+  font-size: 1.5vw;
+  text-transform: uppercase;
+  font-style: italic;
+  line-height: 3vw;
+  letter-spacing: 1px;
+  text-decoration: none;
+  color: black;
+}
+@media only screen and (max-width: 820px) {
+  .read1 {
+    font-size: 2.5vw;
+  }
+}
+@media only screen and (max-width: 320px) {
+  .read1 {
+    font-size: 3.5vw;
   }
 }
 
