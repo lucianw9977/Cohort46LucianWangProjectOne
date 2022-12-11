@@ -656,24 +656,62 @@ h1 {
   }
 }
 
+@media only screen and (max-width: 820px) {
+  ul {
+    list-style-type: none;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+}
+@media only screen and (max-width: 320px) {
+  ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    list-style-type: none;
+  }
+}
+
 li {
+  color: #4CEEA7;
+  margin: 0;
+}
+@media only screen and (max-width: 820px) {
+  li {
+    text-align: left;
+    line-height: 2.5vw;
+  }
+}
+@media only screen and (max-width: 320px) {
+  li {
+    text-align: center;
+    line-height: 5vw;
+  }
+}
+li .post-a {
   font-family: "Roboto";
   font-size: 1.5vw;
   font-style: normal;
   line-height: 2.5vw;
   text-align: left;
   letter-spacing: 1px;
+  text-decoration: none;
   margin: 0;
+  color: black;
 }
 @media only screen and (max-width: 820px) {
-  li {
+  li .post-a {
     text-align: left;
     font-size: 2vw;
     line-height: 2.5vw;
   }
 }
 @media only screen and (max-width: 320px) {
-  li {
+  li .post-a {
     text-align: center;
     font-size: 4vw;
     line-height: 5vw;
@@ -1069,4 +1107,28 @@ body {
 }
 .contact-footer .copyright {
   margin: 0;
+}
+
+.nav1-a3:hover {
+  color: #4CEEA7;
+}
+
+.submit-button:hover {
+  color: #FDFA69;
+}
+
+.fa-facebook-f:hover {
+  color: #4CEEA7;
+}
+
+.fa-instagram:hover {
+  color: #4CEEA7;
+}
+
+.fa-twitter:hover {
+  color: #4CEEA7;
+}
+
+.fa-whatsapp:hover {
+  color: #4CEEA7;
 }

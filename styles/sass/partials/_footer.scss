@@ -59,6 +59,38 @@ footer {
     }
 }
 
+.gallery1 {
+    transition: transform 1s;
+}
+
+.gallery1:hover {
+    transform: scale(1.5);
+}
+
+.gallery2 {
+    transition: transform 1s;
+}
+
+.gallery2:hover {
+    transform: scale(1.5);
+}
+
+.gallery3 {
+    transition: transform 1s;
+}
+
+.gallery3:hover {
+    transform: scale(1.5);
+}
+
+.left-image {
+    transition: 1s ease;
+}
+
+.left-image:hover {
+    border-radius: 50%;
+    transition: 1s ease;
+}
 
 
 

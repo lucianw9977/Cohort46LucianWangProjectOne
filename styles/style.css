@@ -656,24 +656,62 @@ h1 {
   }
 }
 
+@media only screen and (max-width: 820px) {
+  ul {
+    list-style-type: none;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+}
+@media only screen and (max-width: 320px) {
+  ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    list-style-type: none;
+  }
+}
+
 li {
+  color: #4CEEA7;
+  margin: 0;
+}
+@media only screen and (max-width: 820px) {
+  li {
+    text-align: left;
+    line-height: 2.5vw;
+  }
+}
+@media only screen and (max-width: 320px) {
+  li {
+    text-align: center;
+    line-height: 5vw;
+  }
+}
+li .post-a {
   font-family: "Roboto";
   font-size: 1.5vw;
   font-style: normal;
   line-height: 2.5vw;
   text-align: left;
   letter-spacing: 1px;
+  text-decoration: none;
   margin: 0;
+  color: black;
 }
 @media only screen and (max-width: 820px) {
-  li {
+  li .post-a {
     text-align: left;
     font-size: 2vw;
     line-height: 2.5vw;
   }
 }
 @media only screen and (max-width: 320px) {
-  li {
+  li .post-a {
     text-align: center;
     font-size: 4vw;
     line-height: 5vw;
@@ -862,6 +900,18 @@ body {
   .section1-wrapper .h1-container h1 {
     top: 40%;
   }
+}
+
+.nav1-a1:hover {
+  color: #4CEEA7;
+}
+
+.find1:hover {
+  color: #FDFA69;
+}
+
+.read1:hover {
+  color: #FDFA69;
 }
 
 .section2-wrapper {
@@ -1422,4 +1472,51 @@ footer .footer-wrapper {
 }
 footer .footer-wrapper .copyright {
   margin: 0;
+}
+
+.gallery1 {
+  -webkit-transition: -webkit-transform 1s;
+  transition: -webkit-transform 1s;
+  transition: transform 1s;
+  transition: transform 1s, -webkit-transform 1s;
+}
+
+.gallery1:hover {
+  -webkit-transform: scale(1.5);
+          transform: scale(1.5);
+}
+
+.gallery2 {
+  -webkit-transition: -webkit-transform 1s;
+  transition: -webkit-transform 1s;
+  transition: transform 1s;
+  transition: transform 1s, -webkit-transform 1s;
+}
+
+.gallery2:hover {
+  -webkit-transform: scale(1.5);
+          transform: scale(1.5);
+}
+
+.gallery3 {
+  -webkit-transition: -webkit-transform 1s;
+  transition: -webkit-transform 1s;
+  transition: transform 1s;
+  transition: transform 1s, -webkit-transform 1s;
+}
+
+.gallery3:hover {
+  -webkit-transform: scale(1.5);
+          transform: scale(1.5);
+}
+
+.left-image {
+  -webkit-transition: 1s ease;
+  transition: 1s ease;
+}
+
+.left-image:hover {
+  border-radius: 50%;
+  -webkit-transition: 1s ease;
+  transition: 1s ease;
 }
