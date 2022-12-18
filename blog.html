@@ -24,7 +24,8 @@
                 <a class="nav1-a2" href="./blog.html">blog</a>
                 <a class="nav1-a2" href="./contact.html">contact</a>
             </div>
-            <i class="fa-solid fa-bars"></i>
+            <i class="fa-solid fa-bars" onclick="ToggleDropDownMenu()"></i>
+            <i class="fa-solid fa-xmark" onclick="ToggleDropDownMenu()"></i>
             <div class="image1-container">
                 <img class=image1 src="./captured-final-assets/blog-header.jpg" alt="a beautiful ice mountain with trees covered by snow">
             </div>
@@ -112,24 +113,24 @@
                             </div>
                         </div>
                         <div class="form-container2">
-                            <form class="form2" action="#">
+                            <form class="form2" action="#" id="form">
                                 <div class="form-upper">
                                     <div class="name">
                                         <input type="text" id="userName" name="userName" placeholder="Name">
                                         <label for="userName"></label>                                  
                                     </div>   
                                     <div class="email-address">
-                                        <input type="text" id="emailAddress" name="emailAddress" placeholder="Email address">
+                                        <input type="email" id="emailAddress" name="emailAddress" placeholder="Email address">
                                         <label for="emailAddress"></label>                
                                     </div>
                                 </div>
                                 <div class="comment">
-                                    <textarea name="userMessage" id="feedback" placeholder="Comment" cols="30" rows="10"></textarea>
+                                    <textarea name="userMessage" id="userMessage" placeholder="Comment" cols="30" rows="10" minlength="3" maxlength="300"></textarea>
                                     <label for="Message"></label>            
                                 </div>
                                 <div class="blog-submit">
                                     <label for="Submit">
-                                        <a class="submit-button" href="#">post comment</a>
+                                        <button class="submit-button" type="submit" onclick="SubmitPost">post comment</button>
                                     </label>    
                                 </div>
                             </form>
@@ -142,6 +143,7 @@
     <!-- footer start -->
     <footer class="blog-footer">
         <p class="copyright">Copyright © 2018 HackerYou</p>
-    </footer>     
+    </footer>   
+    <script src="./scripts/blog.js"></script>  
 </body>
 </html>

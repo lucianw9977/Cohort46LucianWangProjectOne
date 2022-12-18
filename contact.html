@@ -23,7 +23,8 @@
                 <a class="nav1-a3" href="./blog.html">blog</a>
                 <a class="nav1-a3" href="./contact.html"><span class="contact1">contact</span></a>
             </div>
-            <i class="fa-solid fa-bars"></i>
+            <i class="fa-solid fa-bars" onclick="ToggleDropDownMenu()"></i>
+            <i class="fa-solid fa-xmark" onclick="ToggleDropDownMenu()"></i>
             <div class="image1-container">
                 <img class="image1" src="./captured-final-assets/contact-header.jpg" alt="a man is using his FUJIFILM SRL camera shooting a skyline picture of a city">
             </div>
@@ -50,7 +51,7 @@
                         </div>
                     </div>
                 </div>
-                <form class="form1" action="#">
+                <form class="form1" action="#" onsubmit="SubmitPost()">
                     <div class="form-upper">
                         <div class="name">
                             <input type="text" id="userName" name="userName" placeholder="Name">
@@ -67,7 +68,7 @@
                     </div>
                     <div class="submit">
                         <label for="Submit">
-                            <a class="submit-button" href="#">SUBMIT</a>
+                            <button class="submit-button" type="submit">post comment</button>
                         </label>    
                     </div>
                 </form>
@@ -78,5 +79,6 @@
     <footer class="contact-footer">
         <p class="copyright">Copyright © 2018 HackerYou</p>
     </footer>  
+    <script src="./scripts/contact.js"></script>
 </body>
 </html>
