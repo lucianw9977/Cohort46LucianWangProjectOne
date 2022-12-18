@@ -1071,6 +1071,7 @@ body {
   display: flex;
   gap: 5%;
   padding: 0 10% 0 5%;
+  margin-bottom: 15%;
 }
 .section1-wrapper .comments-wrapper .comments-container .comments-paragraph2 .jeremy-comment .p8 {
   margin-bottom: 1%;

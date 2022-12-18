@@ -10,9 +10,11 @@ function ToggleDropDownMenu () {
   } 
 }
 
-const SubmitPost = () => {
-    alert("Your comment is submitted successfully, thank you!");
-} 
+
+
+
+
+
 
 // select the form
 const formEl = document.querySelector('form');
@@ -28,7 +30,7 @@ formEl.addEventListener('submit', function(event){
 
     // new div upon submit
     const newCommentDiv = document.createElement('div');
-    newCommentDiv.classList.add('.comments-paragraph2');
+    newCommentDiv.classList.add('comments-paragraph2');
 
     // style of userPic, date and comment
     const userPics = document.createElement('div');
@@ -39,17 +41,14 @@ formEl.addEventListener('submit', function(event){
     const userCommentContainer = document.createElement('div');
     userCommentContainer.classList.add('jeremy-comment');
     const userInfo = `<p class="p8">Tuesday October 9th, 2018 by ${userName}</p>
-    <p>${userComment}</p>`;
+    <p class="p9">${userComment}</p>`; 
     userCommentContainer.innerHTML = userInfo;
 
     newCommentDiv.appendChild(userPics);
     newCommentDiv.appendChild(userCommentContainer);
 
-const commentSection = document.querySelector('.comments-heading');
+const commentSection = document.querySelector('.new-comments');
 commentSection.appendChild(newCommentDiv);
-
-formEl.requestFullscreen()
-
 });
 
 
