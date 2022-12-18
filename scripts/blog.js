@@ -11,11 +11,6 @@ function ToggleDropDownMenu () {
 }
 
 
-
-
-
-
-
 // select the form
 const formEl = document.querySelector('form');
 
@@ -50,6 +45,8 @@ formEl.addEventListener('submit', function(event){
 const commentSection = document.querySelector('.new-comments');
 commentSection.appendChild(newCommentDiv);
 });
+
+
 
 
 
